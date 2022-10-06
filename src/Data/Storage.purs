@@ -20,7 +20,7 @@ import Prelude
 import Control.Monad.State (class MonadState, get, modify_)
 import Data.Either (Either(..), either)
 import Data.Generic.Rep as Rep
-import Data.Generic.Rep.Show (genericShow)
+import Data.Show.Generic (genericShow)
 import Data.List.Types (NonEmptyList)
 import Data.Map (Map, insert, lookup)
 import Data.Maybe (Maybe, maybe)

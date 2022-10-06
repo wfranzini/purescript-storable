@@ -9,7 +9,7 @@ import Prelude
 
 import Data.Either (Either(..), either)
 import Data.Generic.Rep as Rep
-import Data.Generic.Rep.Show (genericShow)
+import Data.Show.Generic (genericShow)
 import Data.Storage (class Storable, StorageError(..))
 import Simple.JSON (class ReadForeign, class WriteForeign, readJSON, writeJSON)
 import Test.QuickCheck (class Arbitrary)
